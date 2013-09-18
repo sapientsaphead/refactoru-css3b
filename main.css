@@ -1,0 +1,146 @@
+/* ADD YOUR STYLES HERE */
+/* 6. Horizontally Spaced */
+
+.media-container {
+	text-align:center;
+}
+.img-att {
+	margin: 20px;
+	float:left;
+}
+.img-att li {
+	text-align: left;
+}
+/*7. Vertically Spaced */
+
+.vert-cont {
+	display: table;
+	height: 300px;
+}
+.vert-center {
+	display:table-cell;
+	vertical-align:middle;
+}
+.nostyle {
+	list-style-type: none;
+	padding: 0;
+}
+.nolist {
+	float: left;
+}
+/* 9. Buttons */
+
+.bigbutton {
+	display:block;
+	background:#F08080;
+	border-radius: 5px;
+	text-align: center;
+	float: left;
+	padding: 20px 60px 20px 60px;
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	border: 2px white solid;
+}
+.medbutton {
+	display:block;
+	background:#F08080;
+	border-radius: 7px;
+	text-align: center;
+	float: left;
+	padding: 10px 40px 10px 40px;
+	margin-top:15px;
+	border: 2px white solid;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+.smallbutton {
+	display:block;
+	background:#F08080;
+	border-radius: 7px;
+	text-align: center;
+	float: left;
+	padding: 5px 10px 5px 10px;
+	margin-top:20px;
+	border: 2px white solid;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+/* 10. Navigation */
+
+
+.nostylenav {
+	list-style-type: none;
+	padding: 0;
+	background-color: #F08080;
+	border-radius: 5px;
+	overflow: hidden;
+	width: auto; 
+	float:left;
+	
+}
+.nolistnav {
+	float: left;
+	text-align:center;
+	background-color: #F08080;
+	padding: 13px 40px 13px 40px;
+	font-size: 16px;
+}
+.style {
+	text-decoration: none;
+	color: white;
+}
+.nolistnav:hover{
+	background-color: #eb5252;
+}
+
+/* 11. Pagination */
+
+.nostylepag {
+	list-style-type: none;
+}
+.nolistpag {
+	padding: 7px;
+	float:left;
+	text-decoration: none;
+}
+.pagstyle {
+	color: #F08080;
+	padding: 4px;
+	text-decoration: none;
+	border-bottom: thick solid #F08080;
+}
+.activepage {
+	border-bottom: 20px solid #aaa;
+	color: #aaa;
+	padding: 4px;
+}
+.sides {
+	border: none;
+}
+
+/* 12. Comment Stream */
+
+.commentbox {
+	display:inline-block;
+	padding: 10px;
+}
+.inline-media {
+	float:left;
+	margin-right: 10px;
+}
+.commenttext {
+	display:block;
+	overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
