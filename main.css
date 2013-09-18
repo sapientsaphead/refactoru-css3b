@@ -136,8 +136,10 @@
 	display:block;
 	overflow:hidden;
 }
-
-
+.timestamp {
+	font: 12px sans-serif;
+	color: #bbb;
+}
 
 
 
