@@ -126,6 +126,7 @@
 .commentbox {
 	display:inline-block;
 	padding: 10px;
+	width: 100%;
 }
 .inline-media {
 	float:left;
