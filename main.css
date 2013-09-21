@@ -123,9 +123,31 @@
 
 /* 12. Comment Stream */
 
+/* Solution #1 */
+
+.commentbox {
+	display:block;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.inline-media {
+	float:left;
+	margin-right:10px;
+}
+.commenttext {
+	overflow:hidden;
+}
+.timestamp {
+	font: 12px sans-serif;
+	color: #bbb;
+}
+
+/*
+Solution #2
+
 .commentbox {
 	display:inline-block;
-	padding: 10px;
+	padding-bottom: 10px;
 	width: 100%;
 }
 .inline-media {
@@ -140,10 +162,51 @@
 	font: 12px sans-serif;
 	color: #bbb;
 }
+*/
 
+/* 13. Tabs */
 
+.tabbednav {
+	list-style-type: none;
+	padding:0;
+	margin-left:5px;
+}
 
+.tabbednav li {
+	display: inline-block;
+	position: relative;
+	border-top: 1px solid #4863A0;
+	border-left: 1px solid #4863A0;
+	border-right: 1px solid #4863A0;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 5px 0px 5px;
+	bottom:-1px;
 
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	font-size: 14px;
+	font-weight:bold;
+}
 
+.linkstyle {
+	text-decoration:none;
+	display: block;
+	text-align:center;
+}
 
+#active {
+	position:relative;
+	background-color: white;
+}
+
+#active a {
+
+}
+
+.content {
+	border: 1px solid #4863a0;
+	padding: 10px;
+	clear:both;
+	border-radius:5px;
+}
 
